@@ -16,7 +16,8 @@ var methodOverride        = require("method-override");
 var flash                 = require("connect-flash");
 var cookieParser          = require("cookie-parser");
 
-mongoose.connect("mongodb://localhost/yelp_camp");
+// mongoose.connect("mongodb://localhost/yelp_camp");
+mongoose.connect("mongodb://vutruongqa:Bongdaso1@ds235850.mlab.com:35850/vutruongyelpcamp");
 
 app.use(express.static('public'));
 app.set("view engine","ejs");
